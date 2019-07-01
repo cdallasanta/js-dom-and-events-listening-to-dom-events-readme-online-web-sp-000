@@ -2,10 +2,10 @@
 // you can also load the code snippets in using your browser's console
 const main = document.getElementById('main');
 
+console.log("here?");
 main.addEventListener('click', function(event) {
   console.log('I was clicked!');
 });
-console.log("here?");
 const input = document.querySelector('input');
 
 input.addEventListener('keydown', function(e) {
